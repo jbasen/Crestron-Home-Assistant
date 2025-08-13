@@ -42,21 +42,21 @@ SimplWindows.
 Developer Tools->States in the HA web interface or HA app. This will be entered into the parameter
 fields of the Crestron modules.
 
-If you have a problem and want to open a XXXXX.  Please do the following:
+If you have a problem and want to open an issue.  Please do the following:
 1) On the comm manager module set the Startup_Debug_Msg_Output parameter to "Console".
 This will send debugging information to the Toolbox console.
 2) Enter the entity ID of of the device/service you are having problems with in the parameter
 field Startup_Debug_Entity_ID.  This will limit the messages displayed to just those for this
 device/service.  This will greatly help in being able to just see relevant debugging messages
-for the the device/service if you have setup other modules to control other devices you have
-connected to your HA system.
-3) You will need to use both toolbox debugger and open a text console window in toolbox.  The code
+for the device/service you are having problmes with if you have setup other modules to control
+other devices you have connected to your HA system.
+4) You will need to use both toolbox debugger and open a text console window in toolbox.  The code
 will generate a good deal of debugging messages.  These should be visible in the debugger but
 unfortunately it has a bad habit of losing messages. However, the text console window is very good
 at capturing all the messages.
-4) Perform the necessary actions using SimplDebugger to duplicate the problem you are having
-5) Please then copy what has been displayed in the text console window, paste it into the XXXX 
-(please copy and paste the actual text. Don't send a screenshot)
+5) Perform the necessary actions using SimplDebugger to duplicate the problem you are having
+6) Please then copy what has been displayed in the text console window and paste it into the GitHub
+issue (please copy and paste the actual text. Don't send a screenshot)
 The above will make it much easier for me to help you.
 
 Releases:
