@@ -12,6 +12,8 @@ sensor entity for providing the measured power consumed by the device plugged in
 smart plug.  This paradigm provides both power and flexibility in working with smart
 home devices and services integrated with Home Assistant.
 
+IMPORTANT NOTE: This driver only works with a Crestron 4-Series processor.
+
 This module suite is released as shareware.  It is free for a developer to 
 use on their own personal Crestron system or for a dealer to use in their 
 showroom demo system.  However, if it is used on customer systems, where a 
