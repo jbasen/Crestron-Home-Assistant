@@ -60,4 +60,6 @@ issue (please copy and paste the actual text. Don't send a screenshot)
 The above will make it much easier for me to help you.
 
 Releases:
-v1 - Initial Release
+v1 - Initial Release - NOTE - For some reason the .lpz file in the zip file was triggering Windows
+Defender to report that there was a virus.  I have removed the lpz file from the zip to eliminate 
+this false report.
