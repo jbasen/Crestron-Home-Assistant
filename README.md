@@ -59,6 +59,11 @@ at capturing all the messages.
 issue (please copy and paste the actual text. Don't send a screenshot)
 The above will make it much easier for me to help you.
 
+NOTE: I would like to add support for smart humidifiers, water heaters, and sirens that are connected
+to HA.  However, I don't personally have any of these devices to test with.  If you have one, or
+more, of these devices and don't mind spending some time working with me and testing code, please
+let me know.  You can send me an email at the address in the module help. Thanks
+
 Releases:
 v1 - Initial Release - NOTE - For some reason the .lpz file in the zip file was triggering Windows
 Defender to report that there was a virus.  I have removed the lpz file from the zip to eliminate 
