@@ -65,6 +65,15 @@ more, of these devices and don't mind spending some time working with me and tes
 let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
+v1.01 - 	
+1. Changed processor type in demo program to make it easier to load to any 4-series processor
+2. Reduced signal traffic on feedback signals from modules - Alarm Control Panel, Analog Sensor, 
+   Climate, Cover, Enum Sensor, Fan, Input Number Helper, Lawn Mower, Light, Select, Sonos, and Vacuum
+3. Fixed multiple issues with the Climate module.  One fix required changing temperatures from temperatures 
+   in tenths of degrees to temperatures in degrees.  One, un-needed output was also removed from the module.  
+   Also added missing support for swing mode and swing horizontal modes.
+4. Minor other bug fixes
+
 v1 - Initial Release - NOTE - For some reason the .lpz file in the zip file was triggering Windows
 Defender to report that there was a virus.  I have removed the lpz file from the zip to eliminate 
 this false report.
