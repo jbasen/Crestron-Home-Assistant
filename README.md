@@ -65,6 +65,9 @@ more, of these devices and don't mind spending some time working with me and tes
 let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
+v1.1 - 
+1. Added support for fans that don't support presets and whose speed can only be set by a %
+2. Misc. internal code improvements
 v1.01 - 	
 1. Changed processor type in demo program to make it easier to load to any 4-series processor
 2. Reduced signal traffic on feedback signals from modules - Alarm Control Panel, Analog Sensor, 
