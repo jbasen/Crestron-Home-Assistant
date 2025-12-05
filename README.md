@@ -65,6 +65,7 @@ more, of these devices and don't mind spending some time working with me and tes
 let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
+v1.42 - Fixed bug in Sonos module where pausing one player would pause all players in a system
 v1.41 - Fixed bug in climate module that made it impossible to set HVAC modes for a subset of
         thermostats
 v1.4 - Added support for lights that are only on/off, brightness adjust, or color temp adjustable
