@@ -66,15 +66,21 @@ let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
 v1.42 - Fixed bug in Sonos module where pausing one player would pause all players in a system
+
 v1.41 - Fixed bug in climate module that made it impossible to set HVAC modes for a subset of
         thermostats
+
 v1.4 - Added support for lights that are only on/off, brightness adjust, or color temp adjustable
+
 v1.3 - Fixed an JSON parsing exception when a Meross thermostat passed the current humidity as a 
 double and not as an integer
+
 v1.2 - Added support for triggering HA scenes
+
 v1.1 - 
 1. Added support for fans that don't support presets and whose speed can only be set by a %
 2. Misc. internal code improvements
+
 v1.01 - 	
 1. Changed processor type in demo program to make it easier to load to any 4-series processor
 2. Reduced signal traffic on feedback signals from modules - Alarm Control Panel, Analog Sensor, 
