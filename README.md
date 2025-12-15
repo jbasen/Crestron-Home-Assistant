@@ -66,6 +66,8 @@ let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
 
+V1.43 - Fixed bug in light module where it wouldn't recognize certain colored lights properly
+
 v1.42 - Fixed bug in Sonos module where pausing one player would pause all players in a system
 
 v1.41 - Fixed bug in climate module that made it impossible to set HVAC modes for a subset of
