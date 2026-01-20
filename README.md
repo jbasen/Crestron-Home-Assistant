@@ -65,6 +65,9 @@ more, of these devices and don't mind spending some time working with me and tes
 let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
+v1.5 - Fixed a problem with dual temperature set points in the climate module.  Also, added 
+support for max/min humdiity in the climate module though I'm not sure of a thermostat that
+supports this feature.
 
 V1.43 - Fixed bug in light module where it wouldn't recognize certain colored lights properly
 
