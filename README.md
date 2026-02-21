@@ -1,4 +1,8 @@
 # Crestron-Home-Assistant
+
+IMPORTANT - VERSION 2 OF THE DRIVER HAS NOW BEEN RELEASED.  SEE SPECIFIC INFORMATION
+ON V2 BELOW
+
 Driver to integrate a Home Assistant (HA) system with a Crestron system so the devices 
 and services connected to the HA system can be leveraged in the Crestron system.
 
@@ -65,6 +69,25 @@ more, of these devices and don't mind spending some time working with me and tes
 let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
+v2 - Version 2 is a significant update to the Crestron-Home Assistant integration driver.
+There are enhancements to improve robustness, support for new entities, bug fixes, and support
+for a few entities that are shown in the demo program as being in beta because I don't have
+the hardware to test with.  One example of a new module in v2 is a media player source select
+module.  This allows for selecting different sources connected to a Roku or AppleTV.
+
+IMPORTANT - DO NOT MIX MODULES FROM V1.X WITH V2 MODULES AND THE V2 C# LIBRARY.  A CHANGE WAS
+REQUIRED IN THE WAY LISTS ARE PASSED BETWEEN C# AND THE S+ MODULES THAT MAKES THE TWO VERSIONS
+INCOMPATIBLE.  
+
+Also please note that operation of the camera module is VERY hardware dependent.  For example,
+it includes the ability to turn a camera on/off but many cameras don't support this.  It also
+includes the ability to route video from a camera to a media player.  However, this is dependent
+on the video format produced by the camera and the capabilities of the media player itself. Because
+of the challenges of trying to test this module it is listed as beta.
+
+For now I am leaving v1.5 on this GitHub in case there is a situation where someone needs the old
+version.
+
 v1.5 - Fixed a problem with dual temperature set points in the climate module.  Also, added 
 support for max/min humdiity in the climate module though I'm not sure of a thermostat that
 supports this feature.
