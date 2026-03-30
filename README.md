@@ -70,6 +70,12 @@ let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
 
+v2.1 - 
+    New Output on Comm Manager Module - High when Crestron system is connected to HA
+    Updated Input Number Helper module to support floating point numbers
+    New module added to support Number entities in Home Assistant
+    Misc bug fixes
+
 v2 - Version 2 is a significant update to the Crestron-Home Assistant integration driver.
 There are enhancements to improve robustness, support for new entities, bug fixes, and support
 for a few entities that are shown in the demo program as being in beta because I don't have
