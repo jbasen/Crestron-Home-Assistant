@@ -1,8 +1,5 @@
 # Crestron-Home-Assistant
 
-A PROBLEM WAS FOUND WITH V 2.1.  A NEW VERSION WILL BE UPLOADED SHORTLY.  SORRY
-FOR THE INCONVENIENCE
-
 IMPORTANT - VERSION 2 OF THE DRIVER HAS NOW BEEN RELEASED.  SEE SPECIFIC INFORMATION
 ON V2 BELOW
 
@@ -73,6 +70,8 @@ let me know.  You can send me an email at the address in the module help. Thanks
 
 Releases:
 
+v2.11 - Fixed a problem where the wrong version of the comm manager module was included
+in v2.1.  This caused an exception at startup.
 v2.1 - 
     New Output on Comm Manager Module - High when Crestron system is connected to HA.  
     Updated Input Number Helper module to support floating point numbers.  
